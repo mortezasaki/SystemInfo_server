@@ -33,6 +33,14 @@ Get System information through API
    uvicorn app.main:app --reload
     ```
 
+## Installation with Docker
+1. Install Docker
+2. Copy `.env.example` to `.env`
+3. Run the following command
+   ```bash
+   docker-compose up -d
+   ```
+
 ## API Documentation
 The API documentation is available at [http://localhost:8000/docs](http://localhost:8000/docs)
 
